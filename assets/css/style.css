@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+/* Universal css Start */
+.text-orange{color: #f54219 !important;}
+.text-blue{color: #1b0238;}
+.text-silver{color: #6b6b84;}
+.bg-orange{color: #EA512E;}
+.bg-yellow{color: #f5890d;}
+.mt-10{margin-top: 142px;}
+.btn{
+    color:#fff;
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s ease;
+    position: relative;
+    background: #EA512E;
+}
+.btn:hover{
+    color: #fff;
+    background: #f5890d;
+}
+.btn1{
+    color:#fff;
+    display:inline-block;
+    padding: 12px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s ease;
+    position: relative;
+    background: #f5890d;
+    text-decoration: none;
+}
+.btn1:hover{
+    color: #fff;
+    background: #EA512E;
+}
+.col{
+    margin-bottom: 20px;
+    line-height: 1.9;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+/* Universal css End */
+
+/* Header Secation Start */
+.tex{
+    -webkit-text-fill-color: #1b194a;
+}
+.tex:hover{
+    -webkit-text-fill-color: #eb3c15;
+}
+.navbar .navbar-nav .nav-item a {
+  margin: 5px;
+}
+/* Header Secation End */
+
+/* Banner Section Start */
+.banner{
+    width:100% ;
+    height: 700px; 
+    background: url(../img/main-bg-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.banner h2{
+    font-weight:600;
+    font-size: 57px;
+    margin-left: 5px;
+    margin-top: 16px;
+    margin-bottom: 23px;
+    line-height: 1.3;
+}
+.banner p{
+    font-size: 16px;
+}
+.shape-1{
+    top: 3.5%;
+    left: 1%;
+    animation: move 2s linear alternate infinite;
+}
+.shape-2{
+    top: 7.5%;
+    left: 50%;
+    animation: move1 2s linear alternate infinite;
+}
+.shape-3{
+    bottom:14.5%;
+    left: 1%;
+    animation: move 2s linear alternate infinite;
+}
+.shape-4{
+    bottom: 0%;
+    left:49%;
+    animation: move2 2s linear alternate infinite;
+}
+/* Banner Section End */
+@keyframes move {
+    0%{}
+    100%{left:3%;}
+}
+@keyframes move1 {
+    0%{}
+    100%{left:47%;}
+}
+@keyframes move2 {
+    0%{}
+    100%{bottom:4%;}
+}
