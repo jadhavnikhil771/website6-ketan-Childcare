@@ -1,119 +1,1119 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*======================================================  Start =======================-----==========================*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: none;
-}
-/* Universal css Start */
-.text-orange{color: #f54219 !important;}
+  }
+/*================================================ Universal css Start ================================================*/
+.text-orange{color: #EA512E !important; }
+.bg-orange{background: #EA512E; }
+.bg-light-orange {background-color: #fcded3; }
+.bg-light-yellow {background-color: #fee9ca; }
 .text-blue{color: #1b0238;}
 .text-silver{color: #6b6b84;}
-.bg-orange{color: #EA512E;}
-.bg-yellow{color: #f5890d;}
-.mt-10{margin-top: 142px;}
+.pt-10{margin-top:25px;}
+.pt-20{margin-top:80px;}
+.ptb-100 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 .btn{
-    color:#fff;
-    display: inline-block;
-    padding: 12px 35px;
-    font-size: 16px;
-    border-radius: 10px;
-    font-weight: 500;
-    transition: 0.5s ease;
-    position: relative;
-    background: #EA512E;
+  color:#fff;
+  display: inline-block;
+  padding: 12px 35px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.5s ease;
+  position: relative;
+  background: #EA512E;
 }
 .btn:hover{
-    color: #fff;
-    background: #f5890d;
+  color: #fff;
+  background: #f5890d;
 }
 .btn1{
     color:#fff;
     display:inline-block;
-    padding: 12px 35px;
-    font-size: 16px;
-    border-radius: 10px;
-    font-weight: 500;
-    transition: 0.5s ease;
-    position: relative;
-    background: #f5890d;
-    text-decoration: none;
+  padding: 13px 35px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.5s ease;
+  position: relative;
+  background: #f5890d;
+  text-decoration: none;
 }
 .btn1:hover{
-    color: #fff;
-    background: #EA512E;
+  color: #fff;
+  background: #EA512E;
 }
-.col{
-    margin-bottom: 20px;
-    line-height: 1.9;
-    font-weight: 400;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
+.size{
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
 }
-/* Universal css End */
+.span-1 {
+  font-size: 25px;
+  color: #ea512e;
+  font-weight: 600;
+  font-family: 'Sacramento', cursive;
+}
+p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: #6b6b84;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+/*================================================ Universal css End ================================================*/
 
-/* Header Secation Start */
-.tex{
-    -webkit-text-fill-color: #1b194a;
+/*============================================== Header Secation Start ==============================================*/
+.navbar{
+  position: fixed;
+  top:0;
+  z-index: 99;
+  background: #fff;
+  width: 100%;
 }
-.tex:hover{
-    -webkit-text-fill-color: #eb3c15;
+.navbar .navbar-nav .title a {
+  color: #1b0238;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
 }
-.navbar .navbar-nav .nav-item a {
-  margin: 5px;
+.navbar .navbar-nav .title {
+  margin-left: 6px;
+  margin-right: 6px;
 }
-/* Header Secation End */
+.navbar .navbar-nav .title a {
+  color: #1b0238;
+  font-size: 16px;
+  font-weight: bold !important;
+}
+.nav:hover{
+  color: #ea512e !important;
+}
+.title-point {
+  border-radius: 0px;
+  border: 0px;
+  line-height: 0px;
+  top: 45px;
+  width: 200px;   
+  margin-left: 20px;
+}
+.navbar .item:hover{
+  color: #ea512e !important;
+}
+.main-navbar .navbar ul {
+padding-left: 0;
+list-style-type: none;
+margin-bottom: 0;
+}
+.main-navbar .navbar .navbar-nav {
+  margin: auto;
+}
+.language-switcher .dropdown-menu .item {
+  padding: 0;
+  color: #1b0238;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.dropdown  {
+  display: inline-block;
+  background: #ffff;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.navbar .responsive {
+  padding-right: 20%;
+}
+.main-banner-shape .banner-bg-shape {
+  bottom: -75px;
+  z-index: 1;
+}
+.main-banner-shape .shape-1 {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 1;
+  max-width: 100px;
+  animation: moveLef3s linear infinite;
+}
+.others-option-for-responsive .row button{
+  background: #ffffff;
+}
+.others-option-for-responsive .row:hover button{
+  color: #ea512e;
+}
 
-/* Banner Section Start */
+/*================================================ Header Secation End ================================================*/
+
+/*=============================================== banner Secation Start ===============================================*/
 .banner{
-    width:100% ;
-    height: 700px; 
-    background: url(../img/main-bg-banner.jpeg);
-    background-size: cover;
-    background-position: center;
+  width:100% ;
+  height: 700px; 
+  background: url(../img/main-bg-banner.jpeg);
+  background-size: cover;
+  background-position: center;
 }
-.banner h2{
-    font-weight:600;
-    font-size: 57px;
-    margin-left: 5px;
-    margin-top: 16px;
-    margin-bottom: 23px;
-    line-height: 1.3;
+.banner .container {
+  vertical-align: middle;
 }
-.banner p{
-    font-size: 16px;
+.banner .span {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
 }
-.shape-1{
-    top: 3.5%;
-    left: 1%;
-    animation: move 2s linear alternate infinite;
+.main-banner-content h1 {
+  font-size: 60px;
+  font-family: "Catamaran", sans-serif;
 }
-.shape-2{
-    top: 7.5%;
-    left: 50%;
-    animation: move1 2s linear alternate infinite;
+.main-banner-shape .shape-1 {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  z-index: 1;
+  animation: move 2s linear alternate infinite;
 }
-.shape-3{
-    bottom:14.5%;
-    left: 1%;
-    animation: move 2s linear alternate infinite;
-}
-.shape-4{
-    bottom: 0%;
-    left:49%;
-    animation: move2 2s linear alternate infinite;
-}
-/* Banner Section End */
 @keyframes move {
-    0%{}
-    100%{left:3%;}
+  0%{}
+  100%{left: 40px;}
+}
+.main-banner-shape .shape-2 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  z-index: 1;
+  max-width: 100px;
+  animation: move1 2s linear alternate infinite;
 }
 @keyframes move1 {
-    0%{}
-    100%{left:47%;}
+  0%{}
+  100%{left: 52%;}
+}
+.main-banner-shape .shape-3 {
+  position: absolute;
+  bottom: 104px;
+  left: 20px;
+  z-index: 1;
+  max-width: 100px;
+  animation: move 2s linear alternate infinite;
+}
+.main-banner-shape .shape-4 {
+  position: absolute;
+  bottom: 37px;
+  left: 51%;
+  z-index: 1;
+  max-width: 100px;
+  animation: move2 2s linear alternate infinite;
 }
 @keyframes move2 {
-    0%{}
-    100%{bottom:4%;}
+  0%{}
+  100%{bottom:3%;}
 }
+/*=============================================== banner Secation End =================================================*/
+/*============================================= Who We Are Section Start ==============================================*/
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.who-image {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.who-image::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #ea512e;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  border-radius: 50%;
+  transition: 0.5s;
+  animation: border-transform-default 10s linear infinite alternate forwards;
+}
+@keyframes border-transform-default {
+  0%, 100% {
+      border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+  }
+  14% {
+      border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+  }
+  28% {
+      border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+  }
+  42% {
+      border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+  }
+  56% {
+      border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+  }
+  70% {
+      border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+  }
+  84% {
+      border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+  }
+}
+.who-image::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #f5890d;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  border-radius: 50%;
+  transition: 0.5s;
+  animation: border-transform-default 50s linear infinite alternate forwards;
+}
+.who {
+  position: relative;
+  z-index: 1;
+}
+.who-shape {
+  position: absolute;
+  right: 7%;
+  top: 35px;
+  width: 100px;
+  animation:  move4 2s linear alternate infinite;
+}
+@keyframes move4 {
+  0%{}
+  100%{right: 70px;}
+}
+.who ul li{
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1b0238;
+}
+.who ul li span {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ea512e;
+  border-radius: 50px;
+  text-align: center;
+  transition: 0.3s;
+}
+.who ul li:hover span{
+  background: #f5890d;
+  transition: all 0.3s ease-in;
+}
+.who-list li {
+  list-style-type: none;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  flex: 0 0 50%;
+}
+.who-list {
+  flex-wrap: wrap;
+}
+/*============================================== Who We Are Section End ==============================================*/
+
+/*================================================ popular Section End ================================================*/
+.popular .image{    
+  transition: all 0.2s linear;
+}
+.popular .cardo:hover .image{
+  transform: scale(1.15)rotate(2deg);
+}
+.bg-org{
+  background-color: #ea512e;
+}
+.cardo:hover .price{
+  background-color: #ff9a27 !important;
+  transition: all 0.3s ease;
+}
+.mycard:hover .org{
+  color: #ea512e !important;
+  transition: all 0.6s ease;
+}
+.cardcontent{
+  padding: 6px 30px;
+  padding-bottom: 36px;
+}
+.cardcontent .texts{
+  line-height: 1.8;
+  color: #6b6b84;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.popular .class-list {
+  padding-left: 0;
+  margin-bottom: 25px;
+  padding-top: 18px;
+  border-top: 1px dashed #ea512e;
+}
+.popular .class-list li {
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-right: 7px;
+  color: #6b6b84;
+}
+.class-list li span {
+  color: #ea512e;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*================================================ popular Section End ================================================*/
+
+/*============================================== Core Values Section End ==============================================*/
+.core-value img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.value-item .value-inner-content {
+  position: relative;
+  padding-left: 88px;
+  margin-top: 30px;
+}
+.value-item .value-inner-content .number span {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  background-color: #d3f5fe;
+  text-align: center;
+  font-size: 25px;
+  color: #1b0238;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+.value-item .value-inner-content .number span::before {
+  position: absolute;
+  content: "";
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border: 2px solid #d3f5fe;
+  border-radius: 50px;
+  top: -5px;
+  left: -5px;
+  right: 0;
+  transition: 0.5s;
+}
+.value-item .value-inner-content:hover .number span {
+  background-color: #ea512e;
+  color: #ffffff;
+}
+.value-item .value-inner-content:hover .number span::before {
+  border: 2px solid #ea512e;
+}
+.value-item .value-inner-content .number .bg-2 {
+  background-color: #fce0ad;
+}
+.value-item .value-inner-content .number .bg-3 {
+  background-color: #fbc9d5;
+}
+.value-item .value-inner-content .number .bg-3::before {
+  border: 2px solid #fbc9d5;
+}
+.value-item .value-inner-content .number .bg-2::before {
+  border: 2px solid #fce0ad;
+}
+.value-inner-content h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+  color: #1b0238;
+}
+.value-shape .shape-1 {
+  top: 30px;
+  left: 20px;
+  z-index: -1;
+}
+.value-shape .shape-2 {
+  left: 20px;
+  z-index: -1;
+  bottom: 30px;
+}
+.value-shape .shape-3 {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+/*============================================== Core Values Section End ==============================================*/
+
+/*=============================================== teacher Section Start ===============================================*/
+.teacher .media a {
+    background-color: #EA512E;
+    border-radius: 50%;
+    padding-top: 16px;
+}
+.teacher .content {
+    margin-top: 25px;
+}
+.teacher .content h3 {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: "Catamaran", sans-serif;
+}
+.teacher .content span {
+    display: block;
+    color: #ea512e;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.teacher .media .icons a{transition: 0.3s ease;}
+.icons a:hover{
+    background-color: #ff9a27 !important;
+}
+.media{
+    transition: 0.3s ease;
+    position: absolute;
+    bottom:-25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+.teacherimg:hover .media{
+    position: absolute;
+    bottom: 17px;
+}
+.teacher .image{
+    position: relative;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 1;
+    padding: 5px;
+}
+.image::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation: border-transform-default 30s linear infinite alternate forwards;
+}
+/*================================================ teacher Section End ================================================*/
+
+/*============================================= testimonial Section Start =============================================*/
+.testimonial .card {
+  width: 95%;
+  height: auto;
+  padding: 25px;
+  border-radius: 49%;
+  text-align: center;
+  border: none;
+  background-color: #fee9ca;
+}
+.testimonial .card div {
+  width: 65px;
+  height: 65px;
+  line-height: 75px;
+  border-radius: 50%;
+  margin: auto;
+  background: #fff;
+  transition: all 0.3s linear;
+}
+.testimonial .card:hover div{
+  background: #EA512E;
+  transition: all 0.3s linear;
+}
+.testimonial .card:hover div .fa-quote-left{
+  color: #ffffff !important;
+  transition: all 0.3s linear;
+}
+.testimonial .section-title h2 {
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+.testimonial h3 {
+  margin-bottom: 0;
+  font-size: 27px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+.testimonial p {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-style: italic;
+}
+.prev,.next{
+  visibility: hidden;
+  transition: 0.6s;
+}
+.slides:hover .prev{
+  visibility: visible;
+}
+.slides:hover .next{
+  visibility: visible;
+}
+.prev:hover{
+  background: #ff9a27 !important;
+}
+.next:hover{
+  background: #ff9a27 !important;
+}
+.slider-main{
+  transition: 0.6s;
+}
+.testimonial:hover .prev{
+  visibility: visible;
+}
+.testimonial:hover .next{
+  visibility: visible;
+}
+.testimonial .prev,
+.testimonial .next {
+  top: 50%;
+ }
+ 
+/*============================================== testimonial Section End ==============================================*/
+
+/*================================================ event Section Start ================================================*/
+.event{
+  width: 100%;min-height: 700px;
+  background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url(../img/event-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.event h3{
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.content {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Sacramento', cursive;
+  color: #fff;
+}
+ .event-title {
+  font-size: 25px;
+  margin-bottom: 0;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+.event-title a{
+ text-decoration: none;
+}
+.event-date h4 {
+  font-size: 80px;
+  color: #ea512e;
+  margin-bottom: 0;
+}
+.event-date span{
+  font-size: 20px;
+  color: #ea512e;
+  margin-top: 10px;
+  font-weight: 500;
+}
+/*================================================ event Section End =================================================*/
+
+/*================================================ news Section Start ================================================*/
+.news .image{    
+  transition: all 0.2s linear;
+}
+.news .cardo:hover .image{
+  transform: scale(1.15)rotate(2deg);
+}
+.post-meta li {
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-right: 7px;
+  color: #6b6b84;
+}
+.post-meta li a{
+ text-decoration: none;
+ color: #6b6b84;
+}
+.post-meta li span {
+  color: #ea512e;
+  font-size: 15px;
+  font-weight: 500;
+}
+.blog-content .h5 {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Catamaran", sans-serif;
+}
+.blog-content h5 a {
+  color: #1b0238;
+  text-decoration: none;
+}
+.card:hover h5 a {
+  color: #ea512e !important;
+  transition: all 0.6s ease;
+}
+.blog-content{
+  padding: 25px;
+  padding-bottom: 36px;
+}
+/*================================================== news Section End ===================================================*/
+
+/*================================================= footer Section Start ================================================*/
+.footer{
+  background: linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.9)),url(../img/footer-bg.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 400px;
+  background-attachment: fixed;
+}
+.line{
+  font-size: 15px;
+  transition: all 0.3s;
+  position: relative;}
+.line:hover{
+  color: #ea512e;
+  cursor: pointer;
+}
+.line:hover::before{
+  width: 100%;
+}
+.line::before{
+  content: "";
+  position: absolute;
+  left:0;
+  bottom: 0;
+  height: 1px;
+  width: 0px;
+  background: #ea512e;
+  transition: 0.3s ease;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:6px;
+}
+.gimg{
+  transition: 0.6s all ease;
+}
+.photo:hover .gimg{
+  transform: scale(1.2);
+}
+footer{
+  width: 100%;
+  background: #091629;
+  min-height: 80px;
+}
+footer p{
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+.hover{position: relative;}
+.invisible1{
+  background-color: #ea512e;
+  position: absolute;
+  top:0;bottom: 0;right: 0;left: 0;
+  transition: 0.6s ease all;
+  opacity: 0;padding:10% 30%;
+  color: #ea512e;
+}
+.hover:hover .invisible1{
+  opacity: 0.5;}
+.up{
+  transition: 0.3s ease;}
+.up:hover{
+  transform: translateY(-9px);
+}
+
+/*================================================  footer Section End =================================================*/
+
+/*================================================  hometwo Section Star =================================================*/
+ 
+  /*=============================================== banner Secation Start ===============================================*/
+  .main-banner{
+    width:100% ;
+    height: 700px; 
+  }
+  .main-banner .container {
+    vertical-align: middle;
+  }
+  .main-banner .span {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+  }
+  .main-banner-content h1 {
+    font-size: 60px;
+    font-family: "Catamaran", sans-serif;
+  }
+  .main-banner-shape .shape-2 {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    z-index: 1;
+    max-width: 100px;
+    animation: move1 2s linear alternate infinite;
+  }
+  @keyframes move1 {
+    0%{}
+    100%{left: 52%;}
+  }
+  .main-banner-shape .shape-4 {
+    position: absolute;
+    bottom: 37px;
+    left: 50%;
+    z-index: 1;
+    max-width: 100px;
+    animation: move2 2s linear alternate infinite;
+  }
+  @keyframes move2 {
+    0%{}
+    100%{bottom:3%;}
+  }
+  /*=============================================== banner Secation End =================================================*/
+  /*============================================= Who We Are Section Start ==============================================*/
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.who-image {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.who ul li{
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1b0238;
+}
+.who ul li span {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ea512e;
+  border-radius: 50px;
+  text-align: center;
+  transition: 0.3s;
+}
+.who ul li:hover span{
+  background: #f5890d;
+  transition: all 0.3s ease-in;
+}
+.who-list li {
+  list-style-type: none;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  flex: 0 0 50%;
+}
+.who-list {
+  flex-wrap: wrap;
+}
+/*============================================== Who We Are Section End ==============================================*/
+/*================================================ popular Section End ================================================*/
+.mycard:hover .org{
+  color: #ea512e !important;
+  transition: all 0.6s ease;
+}
+.cardcontent{
+  padding: 6px 30px;
+  padding-bottom: 36px;
+}
+.cardcontent .texts{
+  line-height: 1.8;
+  color: #6b6b84;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.activities .value-inner-content  .number span {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 25px;
+  color: #1b0238;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+ 
+}
+.activities .value-inner-content {
+  position: relative;
+  padding-left: 88px;
+  margin-top: 30px;
+}
+.activities .value-inner-content .number span::before {
+  position: absolute;
+  content: "";
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border-radius: 50px;
+  top: -5px;
+  left: -5px;
+  right: 0;
+  transition: 0.5s;
+}
+.activities .value-inner-content .number span {
+  background-color: #ea512e;
+}
+.activities .value-inner-content .number span::before {
+  border: 2px solid #ea512e;
+}
+.activities .value-inner-content:hover .number span {
+  background-color: #f5890d;
+  color: #ffffff;
+}
+.activities .value-inner-content:hover .number span::before {
+  border: 2px solid #f5890d;
+}
+.activities .value-inner-content .number .bg-2 {
+  background-color: #fdbea8;
+}
+.activities .value-inner-content .number .bg-2::before {
+  border: 2px solid #fdbea8;
+}
+.activities .value-inner-content .number .bg-3 {
+  background-color: #b6fdd6;
+}
+.activities .value-inner-content .number .bg-3::before {
+  border: 2px solid #b6fdd6;
+}
+.activities .value-inner-content .number .bg-4 {
+  background-color: #fd91a8;
+}
+.activities .value-inner-content .number .bg-4::before {
+  border: 2px solid #fd91a8;
+}
+.activities .value-inner-content .number .bg-5 {
+  background-color: #fce0ad;
+}
+.activities .value-inner-content .number .bg-5::before {
+  border: 2px solid #fce0ad;
+}
+.activities .value-inner-content .number .bg-6 {
+  background-color: #cca0fe;
+}
+.activities .value-inner-content .number .bg-6::before {
+  border: 2px solid #cca0fe;
+}
+.activities-btn {
+  font-size: 16px;
+  color: #ea512e;
+  font-weight: 600;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+/*================================================ popular Section End ================================================*/
+
+/*================================================ popular Section End ================================================*/
+.popular .image{    
+  transition: all 0.2s linear;
+}
+.popular .cardo:hover .image{
+  transform: scale(1.15)rotate(2deg);
+}
+.bg-org{
+  background-color: #ea512e;
+}
+.cardo:hover .price{
+  background-color: #ff9a27 !important;
+  transition: all 0.3s ease;
+}
+.mycard:hover .org{
+  color: #ea512e !important;
+  transition: all 0.6s ease;
+}
+.cardcontent{
+  padding: 6px 30px;
+  padding-bottom: 36px;
+}
+.cardcontent .texts{
+  line-height: 1.8;
+  color: #6b6b84;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.popular .class-list {
+  padding-left: 0;
+  margin-bottom: 25px;
+  padding-top: 18px;
+  border-top: 1px dashed #ea512e;
+}
+.popular .class-list li {
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-right: 7px;
+  color: #6b6b84;
+}
+.class-list li span {
+  color: #ea512e;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*================================================ popular Section End ================================================*/
+/*================================================  hometwo Section End =================================================*/
+/*================================================  about Section End =================================================*/
+.about-banner{
+  width: 100%;
+  padding: 250px 0px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+/*================================================  about Section Start =================================================*/
+
+/*================================================  Button Section Start ==============================================*/
+.buy-now-btn .btn {
+  right: 30px;
+  z-index: 99;
+  top: 50%;
+  position: fixed;
+  border-radius: 30px;
+  display: inline-block;
+  color: #ffffff !important;
+  background-color: #82b440;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  animation: btn infinite 5s ease;
+  transition: all 0.3s ease;
+}
+.buy-now-btn .btn:hover{
+  background-color: #c73f0d;
+}       
+@keyframes btn {
+  0%{transform: rotate(3deg) scale(1);}
+  25%{transform: rotate(-3deg) scale(1);}
+  50%{transform: rotate(3deg) scale(0.95);}
+  75%{transform: rotate(-3deg) scale(0.85);}
+  100%{transform: rotate(3deg) scale(0.99);}
+}
+/*================================================  Button Section End ================================================*/
+
+/*============================================= dark-version Section Start ============================================*/
+.switch {
+  position: fixed;
+  top:83%;right: 90px;
+  width: 66px;
+  height: 36px;
+  z-index: 99;
+}
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ea512e;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  left: 7px;
+  bottom: 7px;
+  top:6px;
+  background: url(../img/sunny.png);
+  width: 33%;height: 22px;
+  background-size: 100% 100%;
+  box-shadow: 0px 0px 0px 6px white;
+  transition: 0.4s;
+  margin: 1px 0px;
+}
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.dark-mode {
+  background-color: #3c2a58;
+}
+/*============================================== dark-version Section End =============================================*/
+
+/*================================================ Button Section Start ==============================================*/
+.go-up{
+  margin: 24px;
+  position: fixed;
+  right: 0;bottom: 0;
+  z-index: 99;
+}
+.go-up{
+  background: transparent;
+}
+.iconup{
+  background: #200929;
+  padding: 10px 13px;
+  transition: 0.6s ease;
+}
+.iconup:hover{
+  background: #ea512e;
+  transform: translateY(-6px);
+}
+/*============================================== dark-version Section End =============================================*/
+
