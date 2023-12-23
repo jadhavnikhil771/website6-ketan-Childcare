@@ -1,43 +1,42 @@
-
 /*================================================ Responsive CSS Start ================================================*/
 @media  screen and (min-width:1200px)  and (max-width:1400px)  {
-    .title:hover .title-point{
-      display: block;
-    }
+  .title:hover .title-point{
+    display: block;
   }
-  @media  screen and (max-width:1199px) {
-    .others-option-for-responsive {
-      display:block !important;
-    }
-    .navbar .others-options {
-      display: none !important;
-    }
-    .others-option-for-responsive .row {
-      right: 18%;
-      top: 23px;
-      position: absolute;
-      position: fixed;
-      z-index: 9991;
-    }
-    .others-option-for-responsive .row .collapse{
-      top: 55px;
-      border: none;
-      margin-left: -60px;
-    }
-    .navbar .navbar-nav .nav-item {
-      margin-top:-25px;
-      border: 5px;
-    }
-    .navbar .navbar-nav .nav-item {
-      margin-top:-25px;
-      border: 5px;
-    }
-    .navbar .bar {
-      overflow-y: scroll;
-      height: 280px;
-      background-color: #ffffff;
-      box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
-      margin-top: 15px;
+}
+@media  screen and (max-width:1199px) {
+  .others-option-for-responsive {
+    display:block !important;
+  }
+  .navbar .others-options {
+    display: none !important;
+  }
+  .others-option-for-responsive .row {
+    right: 18%;
+    top: 23px;
+    position: absolute;
+    position: fixed;
+    z-index: 9991;
+  }
+  .others-option-for-responsive .row .collapse{
+    top: 55px;
+    border: none;
+    margin-left: -60px;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin-top:-25px;
+    border: 5px;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin-top:-25px;
+    border: 5px;
+  }
+  .navbar .bar {
+    overflow-y: scroll;
+    height: 280px;
+    background-color: #ffffff;
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
   }
   .navbar .navbar-nav li a {
     float: left;
@@ -61,24 +60,25 @@
   .testimonial .next {
    top: 93%;
   }
+}
+
+@media only screen  and (max-width: 991px){
+  .others-option-for-responsive .row {
+    right: 23%;
   }
-  @media only screen  and (max-width: 991px){
-    .others-option-for-responsive .row {
-      right: 23%;
-    }
   .main-banner-content {
-      text-align: center;
-      margin: auto;
-      margin-top: 65px;
-      max-width: 630px;
+    text-align: center;
+    margin: auto;
+    margin-top: 65px;
+    max-width: 630px;
   }
   .main-banner-content h1,
   .event-date h4  {
     font-size: 45px;
   }
   .btn,.btn1 {
-      padding: 10px 25px;
-      font-size: 15px; 
+    padding: 10px 25px;
+    font-size: 15px; 
   }
   .main-banner-image {
     margin-top: 0px;
@@ -108,25 +108,25 @@
     font-size: 14px;
     margin-right: 10px;
   }
-  }
+}
   
-  @media only screen and (max-width: 767px){
-    .others-option-for-responsive .row {
-      right: 27%;
-    }
-    p{
-      font-size: 14px; 
-    }
-    .span-1,
-    .news h5 {
-      font-size: 19px;
+@media only screen and (max-width: 767px){
+  .others-option-for-responsive .row {
+    right: 27%;
   }
-    .banner {
-      height: 100%;
-      padding-top: 50px;
-      padding-bottom: 0px;
-      background-image: unset;
-      background-color: #e7ddf4;
+  p{
+      font-size: 14px; 
+  }
+  .span-1,
+  .news h5 {
+    font-size: 19px;
+  }
+  .banner {
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-image: unset;
+    background-color: #e7ddf4;
   }
   .main-banner-content h1 {
     font-size: 30px;
@@ -169,5 +169,5 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  }
+}
   /* ================================================ Responsive CSS End ================================================*/

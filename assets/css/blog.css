@@ -1,25 +1,20 @@
-  /*================================================  Teacher Section Start =================================================*/
-  .blog-banner {
+.blog-banner {
     width: 100%;
     padding: 250px 0px;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-1.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-  }
-  /*================================================  Teacher Section end =================================================*/
-   /*================================================  Teacher Section Start =================================================*/
-   .blog-details-banner {
-    width: 100%;
-    padding: 250px 0px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-4.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-  /*================================================  Teacher Section end =================================================*/
-  
-  .blog-details .block-quote {
+}
+.blog-details-banner {
+   width: 100%;
+   padding: 250px 0px;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-4.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+ }
+    .blog-details .block-quote {
     background-color: #fafafa;
     padding: 30px !important;
     border-left: 3px solid #f5890d;
@@ -27,7 +22,7 @@
     border-radius: 5px;
     margin: 0 0 1rem;
 }
-.block-gallery.columns-3 {
+    .block-gallery.columns-3 {
     padding-left: 0;
     list-style-type: none;
     display: -webkit-box;
